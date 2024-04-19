@@ -165,8 +165,7 @@ a {
 }
 
 .morebtn > img,
-.offlinemore,
-.onlinemore {
+.offlinemore{
   display: inline-block; /* img와 recommendmore를 inline-block으로 설정 */
   vertical-align: middle; /* 수직 중앙 정렬 */
   transition: transform 0.3s ease, font-weight 0.3s ease; /* 부드러운 변환 효과 */
