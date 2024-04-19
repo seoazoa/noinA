@@ -109,6 +109,11 @@ a {
   height: 90%;
   z-index: 9;
 }
+.shortcut > .inner > ul > li > .shortbg{
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
 .shortcutbtnli .shortbg {
   transition: 0.3s ease; /* 변화하는 과정을 0.3초 동안 부드럽게 */
 }
