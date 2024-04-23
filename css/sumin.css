@@ -388,7 +388,7 @@
   width: 100%;
   height: 16.66vw;
   position: relative;
-  display: block;
+  display: none;
   background-color: #80bcbd;
 }
 .youtube-logo {
