@@ -68,14 +68,20 @@
   text-align: center;
   color: #959595;
 }
-.input-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 45px;
+.input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
-.input-box label{
-    font-size: 2rem;
-    font-weight: 600;
+.input-box label {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.input-box input {
+  width: 36vw;
+  height: 4.5vw;
+  border: 3px solid #f2f2f2;
+  border-radius: 35px;
+  margin: 3% 0;
 }
